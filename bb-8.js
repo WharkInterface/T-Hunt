@@ -13,7 +13,7 @@ async function startProgram() {
 	isFleeing = false;
 	while (!isChased) {
 		await Animation.BB8.play();
-		await delay(0.025);
+		await delay(0.30);
 	}
 	while (true) {
 		if (getSpeed() < 10 && isFleeing === false) {
